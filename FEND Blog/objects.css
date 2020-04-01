@@ -1,0 +1,89 @@
+    .nestedgrid {
+        display: grid;
+        gap: 5px;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+    
+    .button {
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        padding: 2px 2px;
+        margin: 20px auto;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5pt;
+        display: inline-block;
+        grid-area: button;
+    }
+    
+    .newer {
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        padding: 2px 2px;
+        margin: 20px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5pt;
+        grid-area: newer;
+    }
+    
+    .home {
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        padding: 2px 2px;
+        margin: 20px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5pt;
+        grid-area: home;
+    }
+    
+    .older {
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        padding: 2px 2px;
+        margin: 20px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5pt;
+        grid-area: older;
+    }
+    
+    .avatar {
+        width: 60px;
+        height: 60px;
+    }
+    
+    p {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    figcaption {
+        font-size: 4px;
+    }
+    
+    pbold {
+        font-weight: bold;
+    }
+    
+    pitalics {
+        font-style: italic;
+    }
+    
+    punder {
+        text-decoration: underline;
+    }
