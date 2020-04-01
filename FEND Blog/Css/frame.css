@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-template-areas: "hd" "main" "button" "ft";
+    justify-items: center;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.headerbox {
+    border: 1px solid blue;
+    background: rgb(131, 229, 241);
+    width: 100%;
+    grid-area: hd;
+    text-align: center;
+}
+
+.sidebox {
+    grid-area: sd;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 1fr;
+    min-width: 1fr;
+    max-width: 100%;
+    grid-area: main;
+}
+
+.navbar {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "newer home older";
+}
+
+.footerbox {
+    border: 1px solid blue;
+    background: rgb(142, 131, 241);
+    width: 100%;
+    grid-area: ft;
+    font-size: 2pt;
+    text-align: center;
+}
